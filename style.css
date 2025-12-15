@@ -90,16 +90,72 @@ section h2 {
 }
 
 /* About Section */
+.about-header {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.profile-image {
+    flex-shrink: 0;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    background-color: #f0f0f0;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    margin-top: 0;
+}
+
 #about p {
     font-size: 1.1em;
     color: #555;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .about-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .profile-image img {
+        width: 150px;
+        height: 150px;
+    }
 }
 
 /* Research Papers */
+.year-heading {
+    color: #667eea;
+    font-size: 1.5em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 8px;
+}
+
+.year-heading:first-of-type {
+    margin-top: 0;
+}
+
 .papers-list {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    margin-bottom: 40px;
 }
 
 .paper {
