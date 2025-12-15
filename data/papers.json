@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Example Paper Title",
+    "authors": "Author Name, Co-Author Name",
+    "venue": "Conference/Journal Name",
+    "year": "2024",
+    "abstract": "Brief description of the research paper. This is where you can add a short summary of what the paper is about.",
+    "pdf": "https://example.com/paper.pdf",
+    "doi": "10.1234/example.doi",
+    "url": "https://example.com/paper"
+  }
+]
